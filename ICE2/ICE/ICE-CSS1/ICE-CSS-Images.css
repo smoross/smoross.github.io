@@ -1,0 +1,28 @@
+/*.bar{
+	display: inline;
+
+}*/
+
+body:hover{
+	width:350px;
+	height: 350px;
+
+	border-top-color: black;
+	position: absolute;
+
+	border: 5px solid rgb(0, 0, 0);
+}
+
+/*body:active{
+
+}
+
+body:focus{
+
+}
+*/
+/*@keyframes rotate{
+	100% {
+		transform: rotateZ(360deg);
+	}
+}*/
