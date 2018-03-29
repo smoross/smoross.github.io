@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0; /*to reset everything*/
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+p{
+	font-size: 1.5em;
+}
+
+.logo{
+	/*margin-left: 50px;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.header{
+	background: lightblue;
+}
+
+.header_img{
+	opacity: 0.5;
+	height: 50%;
+	position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul{
+	height: 40px;
+	text-align: right;
+}
+
+nav > ul > li{
+	max-width: 140px; 
+	display: inline-block;
+	vertical-align: top; /*only for inline-block*/
+}
+
+nav > ul > li > a { color: darkblue; }
+
+nav ul li:hover ul{
+	display: block;
+	color: darkblue;
+}
+
+nav ul li ul{
+	/*submenu style*/
+	display:none;
+	background: lightblue;
+	color: darkblue;
+}
+
+nav ul li a{
+	padding: 10px; /*so we can have enough clickable space*/
+	line-height: 40px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: yellow;
+}
+
+.container{
+	max-width: 700px;
+	width: 700;
+	margin: 0 auto; /*center a div horizontally. will only work for a fixed width div*/
+	text-align: center;
+}
+
+.copyright{
+	font-size: 8px;
+	margin-left: 10px;
+}
+
+.social ul li {
+	list-style: none;
+	display: inline-block;
+	float: center;
+}
+
+.social ul li:hover{
+	opacity: 0.5;
+}
+
+footer{
+	border: 1px solid #000;
+	height: 100px;
+}
+
+#title{
+	text-align: center;
+	/*margin-left: 40px;*/
+	color: darkblue;
+	font-weight: lighter;
+}
+
+.portrait{
+	margin-left: 40px;
+}
+
+.about{
+	display: inline;
+}
+
+.about_description{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 20px;
+}
+
+.experience p{
+	margin-left: 40px;
+	margin-right: 975px;
+	font-size: 15px;
+	border-bottom: 1px solid black;
+}
+
+
+
