@@ -1,0 +1,25 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+legend {
+	/*width: 25%;*/
+	border-color: red;
+	height: 50%;
+	background-color: lightblue;
+	padding:0;
+	font-family: 'Rammetto One', cursive;
+}
+div fieldset {
+	background-color: lightgray;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+}
+div fieldset ol {
+	list-style: none;
+	justify-content: right;
+}
+div fieldset ol li {
+	justify-content: right;
+}
