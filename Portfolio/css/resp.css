@@ -40,11 +40,12 @@
     	display: block;
   	}
 
-  	#experience1{
+  	p.experience1{
   		line-height: 1.25em;
     	font-size: 1.15em;
     	display: block;
     	margin: 10px;
+    	font-weight: lighter;
   	}
 
   	.project_description{
@@ -101,11 +102,12 @@
     	margin: 0 auto;
   	}
 
-  	#experience1{
+  	p.experience1{
   		line-height: 1.25em;
     	margin: 10px;
     	font-size: 1.15em;
     	display: block;
+    	font-weight: lighter;
   	}
 
   	.project_description{
