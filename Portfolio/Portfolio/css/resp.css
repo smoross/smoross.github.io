@@ -12,13 +12,6 @@
 	#photos ul li {
 	width: 45%;
 	margin: 1%;
-}
-
-	p.about_description{
-		text-align: right;
-		display: flex;
-		/*justify-content: right;
-*/		width: 300px;
 	}
 
 	.portrait{
@@ -32,6 +25,32 @@
 	.social ul li img{
 		width: 50px;
 	}
+
+	.about_description{
+    	line-height: 1.25em;
+    	margin-bottom: 1.75em; 
+    	font-size: 1.15em;
+    	display: block;
+  	}
+
+  	.about_description2{
+    	line-height: 1.25em;
+    	margin-bottom: 1.75em; 
+    	font-size: 1.15em;
+    	display: block;
+  	}
+
+  	p.experience1{
+  		line-height: 1.25em;
+    	font-size: 1.15em;
+    	display: block;
+    	margin: 10px;
+    	font-weight: lighter;
+  	}
+
+  	.project_description{
+  		margin: 10px;
+  	}
 
 }
 
@@ -49,9 +68,9 @@
 		text-align:left;
 	}*/
 
-	.about{
+/*	.about{
 		display: block;
-	}
+	}*/
 
 	.portrait{
 		width: 100px;
@@ -65,8 +84,33 @@
 		width: 40px;
 	}
 
-	.about{
-		display: block;
-	}
+	.about_description{
+    	line-height: 1.25em;
+    	margin-bottom: 1.75em; 
+    	font-size: 1.15em;
+    	display: block;
+    	float: bottom;
+    	margin: 0 auto;
+    	margin-top: 10px;
+  	}
 
+  	.about_description2{
+    	line-height: 1.25em;
+    	margin-bottom: 1.75em; 
+    	font-size: 1.15em;
+    	display: block;
+    	margin: 0 auto;
+  	}
+
+  	p.experience1{
+  		line-height: 1.25em;
+    	margin: 10px;
+    	font-size: 1.15em;
+    	display: block;
+    	font-weight: lighter;
+  	}
+
+  	.project_description{
+  		margin: 10px;
+  	}
 }
