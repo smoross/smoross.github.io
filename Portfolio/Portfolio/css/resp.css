@@ -1,0 +1,72 @@
+/*iphones*/
+@media only screen and (max-width: 850px){
+	.nav ul li a{
+		display: block;
+	}
+
+	.nav{
+		width: 100%;
+		text-align: center;
+	}
+
+	#photos ul li {
+	width: 45%;
+	margin: 1%;
+}
+
+	p.about_description{
+		text-align: right;
+		display: flex;
+		/*justify-content: right;
+*/		width: 300px;
+	}
+
+	.portrait{
+		width: 100px;
+	}
+
+	.logo {
+		text-align: right;
+	}
+
+	.social ul li img{
+		width: 50px;
+	}
+
+}
+
+/*mobile smallest*/
+@media only screen and (max-width: 600px){
+	.nav {
+		display: block; /*100%*/
+	}
+
+	#photos ul li {
+	width: 90%;
+	margin: 0 auto;
+}
+/*	.portrait{
+		text-align:left;
+	}*/
+
+	.about{
+		display: block;
+	}
+
+	.portrait{
+		width: 100px;
+	}
+
+	.logo {
+		text-align: right;
+	}
+
+	.social ul li img{
+		width: 40px;
+	}
+
+	.about{
+		display: block;
+	}
+
+}

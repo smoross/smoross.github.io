@@ -1,0 +1,230 @@
+body{
+	margin: 0;
+	padding: 0; /*to reset everything*/
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+p{
+	font-size: 1.5em;
+}
+
+.logo{
+	margin: 10px;
+	margin-bottom: -15px;
+	text-align: center;
+}
+
+.logo img{
+	width: 100px;
+}
+
+
+#photos ul li {
+	width: 30%;
+	margin: 1%;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	display: inline;
+/*get images to align*/
+}
+
+#photos ul li img{
+	width: 100%;
+}
+
+.header{
+	background: lightblue;
+	margin: 30px;
+	border-radius: 5px;
+}
+
+#photos ul li{
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	display: inline-block;
+	margin: 1px;
+}
+
+#photos ul li:hover{
+	opacity: 0.5;
+	/*Can I get txt to show up when you hover?*/
+}
+
+nav{
+	z-index: 10;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul{
+	height: 40px;
+	text-align: right;
+}
+
+nav > ul > li{
+	max-width: 140px; 
+	display: inline-block;
+	vertical-align: top; /*only for inline-block*/
+}
+
+nav > ul > li > a { color: darkblue; }
+
+nav ul li:hover ul{
+	display: block;
+	color: darkblue;
+	position: absolute;
+}
+
+nav ul li ul{
+	/*submenu style*/
+	display:none;
+	background: lightblue;
+	color: darkblue;
+}
+
+nav ul li a{
+	padding: 10px; /*so we can have enough clickable space*/
+	line-height: 40px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: yellow;
+}
+
+nav ul li a.current_page{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.container{
+	max-width: 700px;
+	width: 700;
+	margin: 0 auto; 
+	/*center a div horizontally. will only work for a fixed width div*/
+	text-align: center;
+}
+
+.copyright{
+	font-size: 8px;
+	margin-left: 10px;
+}
+
+footer{
+	border: 1px solid #000;
+	height: 100px;
+	background-color: lightblue;
+}
+
+.social ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social ul li{
+	display: inline;
+}
+
+.social ul li img{
+	width: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.social ul li:hover{
+	opacity: 0.5;
+}
+
+/*Home page title*/
+#title{ 
+	text-align: center;
+	color: darkblue;
+	font-weight: lighter;
+	font-size: 40px;
+	z-index: 5;
+}
+
+#title2{
+	text-align: center;
+	color: darkblue;
+	font-weight: lighter;
+	z-index: 5;
+}
+
+.about{
+	display: inline;
+	/*position: relative;*/
+	margin: 0 auto;
+	z-index: 5;
+}
+
+.portrait img{
+	width: 300px;
+	margin-left: 100px;
+	margin-bottom: 200px;
+}
+
+
+.about{
+	display: inline;
+}
+.about_description{
+	font-size: 20px;
+	margin-top: -525px;
+	margin-left: 500px;
+	margin-right: 200px;
+	margin-bottom: 200px;
+	font-family: Helvetica;
+	color: darkblue;
+	font-weight: lighter;
+}
+
+.experience p{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bolder;
+	color: darkblue;
+
+}
+
+#home {
+	text-align: center;
+	font-style: italic;
+	font-weight: lighter;
+	color: darkblue;
+}
+
+.resume{
+	text-align: center;
+	color: darkblue;
+	font-weight: bolder;
+}
+
+#experience1{
+	font-size: 20px;
+	margin-right: 200px;
+	margin-left: 200px;
+	font-weight: lighter;
+	text-align: left;
+}
+
+.project_description{
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 20px;
+	font-family: Helvetica;
+	color: darkblue;
+	font-weight: lighter;
+}
+
+
+
+
+
