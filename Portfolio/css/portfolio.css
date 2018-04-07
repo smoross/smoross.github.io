@@ -94,11 +94,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: yellow;
+	color: #1a00ff;
 }
 
 nav ul li a.current_page{
-	color: yellow;
+	color: #1a00ff;
 	text-decoration: underline;
 }
 
