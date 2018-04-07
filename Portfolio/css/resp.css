@@ -27,30 +27,34 @@
 	}
 
 	.about_description{
-    	line-height: 1.25em;
-    	margin-bottom: 1.75em; 
-    	font-size: 1.15em;
-    	display: block;
-  	}
+    line-height: 1.25em;
+    margin-bottom: 1.75em; 
+    font-size: 1.15em;
+    display: block;
+  }
 
-  	.about_description2{
-    	line-height: 1.25em;
-    	margin-bottom: 1.75em; 
-    	font-size: 1.15em;
-    	display: block;
-  	}
+  .about_description2{
+    line-height: 1.25em;
+    margin-bottom: 1.75em; 
+    font-size: 1.15em;
+    display: block;
+  }
 
-  	p.experience1{
-  		line-height: 1.25em;
-    	font-size: 1.15em;
-    	display: block;
-    	margin: 10px;
-    	font-weight: lighter;
-  	}
+  p.experience1{
+  	line-height: 1.25em;
+    font-size: 1.15em;
+    display: block;
+    margin: 10px;
+    font-weight: lighter;
+  }
 
-  	.project_description{
-  		margin: 10px;
-  	}
+  .project_description{
+  	margin: 10px;
+  }
+
+  .audio{
+    position: static;
+  }
 
 }
 
@@ -63,14 +67,7 @@
 	#photos ul li {
 	width: 90%;
 	margin: 0 auto;
-}
-/*	.portrait{
-		text-align:left;
-	}*/
-
-/*	.about{
-		display: block;
-	}*/
+  }
 
 	.portrait{
 		width: 100px;
@@ -85,32 +82,33 @@
 	}
 
 	.about_description{
-    	line-height: 1.25em;
-    	margin-bottom: 1.75em; 
-    	font-size: 1.15em;
-    	display: block;
-    	float: bottom;
-    	margin: 0 auto;
-    	margin-top: 10px;
-  	}
+    line-height: 1.25em;
+    margin-bottom: 1.75em; 
+    font-size: 1.15em;
+    display: block;
+    float: bottom;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 
-  	.about_description2{
-    	line-height: 1.25em;
-    	margin-bottom: 1.75em; 
-    	font-size: 1.15em;
-    	display: block;
-    	margin: 0 auto;
-  	}
+  .about_description2{
+    line-height: 1.25em;
+    margin-bottom: 1.75em; 
+    font-size: 1.15em;
+    display: block;
+    margin: 0 auto;
+  }
 
-  	p.experience1{
-  		line-height: 1.25em;
-    	margin: 10px;
-    	font-size: 1.15em;
-    	display: block;
-    	font-weight: lighter;
-  	}
+  p.experience1{
+  	line-height: 1.25em;
+    margin: 10px;
+    font-size: 1.15em;
+    display: block;
+    font-weight: lighter;
+  }
 
-  	.project_description{
-  		margin: 10px;
-  	}
+  .project_description{
+  	margin: 10px;
+  }
+
 }
