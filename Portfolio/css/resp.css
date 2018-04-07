@@ -16,6 +16,7 @@
 
 	.portrait{
 		width: 100px;
+		padding: 10px;
 	}
 
 	.logo {
@@ -26,19 +27,21 @@
 		width: 50px;
 	}
 
-	.about_description{
+  	.about_description{
     line-height: 1.25em;
     margin-bottom: 1.75em; 
     font-size: 1.15em;
     display: block;
-  }
+    margin: 30px;
+  	}
 
-  .about_description2{
+  	.about_description2{
     line-height: 1.25em;
     margin-bottom: 1.75em; 
     font-size: 1.15em;
     display: block;
-  }
+    margin:30px;
+  	}
 
   p.experience1{
   	line-height: 1.25em;
@@ -71,6 +74,7 @@
 
 	.portrait{
 		width: 100px;
+		padding: 10px;
 	}
 
 	.logo {
@@ -81,24 +85,22 @@
 		width: 40px;
 	}
 
-	.about_description{
+  	.about_description{
     line-height: 1.25em;
     margin-bottom: 1.75em; 
     font-size: 1.15em;
     display: block;
-    float: bottom;
-    margin: 0 auto;
-    margin-top: 10px;
-  }
+    margin: 30px;
+  	}
 
-  .about_description2{
+  	.about_description2{
     line-height: 1.25em;
     margin-bottom: 1.75em; 
     font-size: 1.15em;
     display: block;
-    margin: 0 auto;
-  }
-
+    margin:30px;
+  	}
+  
   p.experience1{
   	line-height: 1.25em;
     margin: 10px;
