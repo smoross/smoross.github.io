@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EXAM 2</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<heading>
+		<h1 class="name">Samantha Moross</h1>
+	</heading>
+
+	<!-- Images -->
+	<div class="images">
+		<img id="image1" src="images/examPic.JPG" alt="examPic">
+		<img id="image2" src="images/UMSI-logo.jpg" alt="UMSI-logo">
+	</div>
+
+	<div class="buttons">
+		<button onclick="hideImage();moveImage();">Hide Image</button>
+		<button onclick="showImage()">Show Image</button>
+	</div>
+
+	<!-- Define function to hide first image -->
+	<script>
+		function hideImage(){
+			document.getElementById("image1").style.visibility = "hidden";
+			document.getElementById("image2").style.position = "absolute";
+		}
+
+		function showImage(){
+			document.getElementById("image1").style.visibility = "visible";
+			document.getElementById("image2").style.position = "relative";
+		}
+	</script>
+
+
+</body>
+</html>
